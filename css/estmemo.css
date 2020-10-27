@@ -1,0 +1,100 @@
+section {padding: 5px;background:rgb(99, 99, 99);float: left;width: 90%;height : auto; border: 1px solid #03C;border-radius: 5px;}
+h1,h2 { text-align : center; padding : 0 px; background : #00ADEE;border-radius: 5px;margin: 0.4%;} 
+.opacity {opacity: .3;filter: alpha(opacity=60);}
+h2 {font-family: 'Macondo', cursive; color: #ffffff;text-shadow:	color: #6699FF;	background: rgb(0, 0, 0);background: rgba(0, 0, 0, 0.4);padding: 5px;border-radius: .3em;}
+	
+.container {width:80%; height: 80%; margin-left:15%;font-size:1em;}
+h2 { font-size:1.3em; } p { text-align:center; font-size:1.1em; color:#000; text-shadow: 1px 1px 1px #fff; }	
+#imagenes {width: 98%; height: 98% background:#9F6;}
+#imagenes div {width: 16.7%; height: 90px; }	
+#imagenes div img {width: 99%; height: 90px; }
+.button.peque span { font-size : 0.5em; } .button.mediano span { font-size : 0.9em; } .button { white-space : nowrap;line-height : 1em; position:relative;  outline : none; overflow : visible; cursor : pointer; border : 1px solid #999; border-bottom : rgba(0, 0, 0, .4) 1px solid; -webkit-box-shadow : 0 1px 2px rgba(0,0,0,.2); -moz-box-shadow : 0 1px 2px rgba(0,0,0,.2);box-shadow : 0 1px 2px rgba(0,0,0,.2); background : -moz-linear-gradient(      center top,      rgba(255, 255, 255, .1) 0%, rgba(0, 0, 0, .1) 100% ) -moz-user-select : none; -webkit-user-select : none; -khtml-user-select : none; user-select : none; margin-left: 38%;} 
+
+@media  only screen and (max-width: 979px) and (min-width: 768px) {
+	.container {width:90%; margin-left:10%}h2 {font-size:1em; }.button.peque span { font-size : 0.7em;} 
+	#imagenes div {width: 15.5%; height: 70px; }
+	#imagenes div img {height: 70px; }}
+
+@media  only screen and (max-width: 767px) and (min-width: 481px) {
+	.container {width:95%; margin-left:5%}h2 {font-size:0.8em; }.button.peque span { font-size : 0.6em;} 
+	#imagenes div {width: 14%;height: 55px; }
+	#imagenes div img {height: 55px; }
+
+
+}
+
+@media  only screen and (max-width: 480px){
+	section {padding: 2px;background:#CCF;float: left;width: 99%;height : auto; border: 1px solid #03C;border-radius: 5px;}
+	.container {width:100%; margin-left:0%}h2 {font-size: 0.6em; }.button.peque span { font-size : 0.5em;} 
+	#imagenes div {width: 13.5%;height: 30px; }
+	#imagenes div img {height: 30px;}
+	.container {width:98%;}
+	h2 { font-size:0.7em; }
+	.button.mediano span { font-size:0.6em;}
+}
+
+
+#imagenes {margin: 0 auto; z-index: 1;}
+#imagenes div {float: left; background:#383838; margin: 5px; padding: 5px; border: 1px solid #999;
+
+
+cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,.5); z-index: 2;}
+#imagenes div img {border: 1px solid #999; z-index: 3;border-color: #660066; } 
+
+#titulo{text-align: center;padding: 20px;}
+
+.button { 
+   white-space : nowrap; 
+   line-height : 1em; 
+   position:relative;
+   outline : none; 
+   overflow : visible; 
+   cursor : pointer; 
+   border : 1px solid #999; 
+   border-bottom : rgba(0, 0, 0, .4) 1px solid; 
+   -webkit-box-shadow : 0 1px 2px rgba(0,0,0,.2); 
+   -moz-box-shadow : 0 1px 2px rgba(0,0,0,.2); 
+   box-shadow : 0 1px 2px rgba(0,0,0,.2); 
+   background : -moz-linear-gradient(      center top,      rgba(255, 255, 255, .1) 0%,      rgba(0, 0, 0, .1) 100%   ) 
+   -moz-user-select : none; 
+   -webkit-user-select : none; 
+   -khtml-user-select : none; 
+   user-select : none; 
+   margin-left: 42%;
+ } 
+.button.full, .button.full span { 
+   display : block; 
+ } 
+.button:hover, .button.hover { 
+   background : -moz-linear-gradient(      center top,      rgba(255, 255, 255, .2) 0%,      rgba(255, 255, 255, .1) 100%   ); 
+   background: -webkit-gradient(  linear, center bottom, center top, from(rgba(255, 255, 255, .1)),      to(rgba(255, 255, 255, .5))   );
+ } 
+.button:active, .button.active { 
+   top : 2px; 
+ } 
+.button span { 
+   position : relative; 
+   color : #fff; 
+   text-shadow : 0 1px 1px rgba(0, 0, 0, 0.25); 
+   border-top : #ffffff33 1px solid; 
+   padding : 0.6em 1.3em; 
+   line-height : 1em; 
+   text-align : center; 
+   white-space : nowrap; 
+ } 
+
+
+
+.button.naranja { 
+   background-color : #ff5c00; 
+ } 
+.button.azul { 
+   background-color : #00ADEE; 
+   
+ } 
+.button, .button span { 
+   float:left;
+   -webkit-border-radius : 4px; 
+   -moz-border-radius : 4px; 
+   border-radius : 4px; 
+ } 
